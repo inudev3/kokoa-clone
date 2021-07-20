@@ -1,0 +1,25 @@
+{
+  "name": "kokoa-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inust33/kokoa-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inust33/kokoa-clone/issues"
+  },
+  "homepage": "https://github.com/inust33/kokoa-clone",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
